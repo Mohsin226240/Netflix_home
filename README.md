@@ -1,23 +1,26 @@
-This project is a simple frontend clone of the Netflix homepage. It is built using only HTML, CSS, Bootstrap, and the AOS (Animate On Scroll) library. The layout is fully responsive and closely follows the design of the original Netflix UI.
+Website chosen:
+Netflix (homepage clone only)
 
-Features:
-
-Responsive layout using Bootstrap
-
-Custom CSS for styling and layout
-
-AOS animation on scroll
-
-Hero section with background and buttons
-
-Thumbnail rows similar to Netflix content UI
-
-Technologies Used:
-
+Tools used:
 HTML5
-
 CSS3
-
 Bootstrap 5
+AOS (Animate On Scroll) library
+Google Fonts
+Custom images/icons
 
-AOS Library
+Design enhancements made compared to the original:
+Animations added using AOS to make scroll transitions smoother
+Bootstrap used to ensure responsiveness on all screen sizes
+Custom styling applied to buttons, sections and cards to match real Netflix UI
+Mobile view carefully adjusted for better usability
+Hover effects improved for a more interactive feel
+Code simplified and structured for clarity and reuse
+
+Challenges faced:
+Aligning content in a way that looks exactly like the real Netflix layout
+Making the hero section fully responsive across all devices
+Positioning background animation with text overlays properly
+Ensuring that AOS animations don’t conflict with Bootstrap classes
+Maintaining layout consistency between desktop and mobile views
+Avoiding the overuse of custom CSS while still keeping the design clean
