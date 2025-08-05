@@ -4,7 +4,7 @@ Netflix (homepage clone only)
 Tools used:
 HTML5
 CSS3
-Bootstrap 5
+Tailwind
 AOS (Animate On Scroll) library
 Google Fonts
 Custom images/icons
