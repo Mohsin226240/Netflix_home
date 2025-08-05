@@ -47,21 +47,23 @@
 
         <header class="relative z-10 py-6 px-4 sm:px-8 lg:px-16">
             <nav class="flex justify-between items-center">
-                <svg viewBox="0 0 111 30" class="h-6 md:h-8 fill-netflix-red" aria-label="Netflix">
-                    <path d="M105.062 14.288c0 8.016-5.937 11.45-15.344 11.45-9.406 0-15.344-3.434-15.344-11.45 0-8.015 5.937-11.45 15.344-11.45 9.406 0 15.344 3.435 15.344 11.45zM89.375 14.288c0-4.813 2.594-7.406 6.875-7.406s6.875 2.593 6.875 7.406c0 4.813-2.594 7.406-6.875 7.406s-6.875-2.593-6.875-7.406zM66.25 25.5h-5V5h5v20.5zM50.625 14.288c0 8.016-5.937 11.45-15.344 11.45-9.406 0-15.344-3.434-15.344-11.45 0-8.015 5.937-11.45 15.344-11.45 9.406 0 15.344 3.435 15.344 11.45zM35 14.288c0-4.813 2.594-7.406 6.875-7.406s6.875 2.593 6.875 7.406c0 4.813-2.594 7.406-6.875 7.406S35 16.812 35 14.288zM24.375 25.5h-5V5h5v20.5zM15.312 5l-5.313 14.938L4.688 5H0l7.812 20.5h4.688L20.312 5h-5zM111 25.5h-5V5h5v20.5z"></path>
-                </svg>
-                
-                <div class="flex items-center space-x-4">
-                    <button id="theme-toggle" class="p-2 rounded-full text-white hover:bg-white/20">
-                        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                        </svg>
-                    </button>
-                    <a href="#" class="bg-netflix-red text-white font-medium py-2 px-4 rounded hover:bg-red-700 transition duration-300">Sign In</a>
-                </div>
-            </nav>
+            <div>
+             <a href="#">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="h-8 sm:h-10">
+             </a>
+            </div>
+          <div class="flex items-center space-x-4">
+               <button id="theme-toggle" class="p-2 rounded-full text-white hover:bg-white/20">
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                 </svg>
+                </button>
+                <a href="#" class="bg-netflix-red text-white font-medium py-2 px-4 rounded hover:bg-red-700 transition duration-300">
+                  Sign In
+                </a>
+              </div>
+             </nav>
         </header>
-
         <div class="relative z-10 flex flex-col items-center justify-center text-center text-white min-h-screen px-4 -mt-20">
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black max-w-3xl" data-aos="fade-up">
                 Unlimited movies, TV shows, and more.
@@ -160,4 +162,5 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
